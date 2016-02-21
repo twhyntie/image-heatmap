@@ -1,2 +1,19 @@
-# image-heatmap
-Some Python scripts for making and superimposing heat maps onto images (for e.g. Zooniverse classifications).
+# Image/Heat Map Maker
+
+This repository contains a script or two for creating heat maps from
+Zooniverse-style image (subject) annotations that can be superimposed on
+the original image.
+
+To run the script:
+
+```bash
+$ python make_image_heatmap.py
+```
+
+To view the output:
+
+```bash
+$ ristretto ./. &
+```
+
+Enjoy!
